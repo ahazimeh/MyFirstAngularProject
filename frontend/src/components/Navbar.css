@@ -1,0 +1,54 @@
+.selected {
+    color: goldenrod !important; 
+    }
+.navbar{
+  
+    background-color:white;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem;}
+.header-links{
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-links a{
+    margin-left:10px;
+}
+
+
+
+.menu a{
+    color:gray;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-links{
+    font-size: 1.5rem;
+}
+.header-links a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-links a:hover{
+    color: goldenrod;
+}
+.menu a:hover{
+    color: goldenrod;
+}
+/*Side Bar*/
+button{
+    border: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    
+}
+    
+
+/* End Side Bar*/
