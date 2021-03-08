@@ -1,0 +1,133 @@
+.slide {
+  overflow-x: scroll !important;
+  margin: 10px;
+}
+span {
+  color: rgb(80, 80, 255) !important;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.link {
+  color: rgb(80, 80, 255);
+  cursor: pointer;
+}
+.cardsTitle {
+  margin-bottom: 20px;
+}
+.packagesTitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+.offer {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.card-title {
+  height: 35px;
+}
+.carousel.slide.carousel-fade {
+  margin: 0px !important;
+}
+@media only screen and (min-width: 1050px) {
+  .ng-fa-icon {
+    width: 50px;
+  }
+
+  .cards {
+    min-width: 1050px;
+  }
+  .w-100,
+  div.carousel-inner {
+    height: 150px !important;
+    width: 330px !important;
+  }
+  img {
+    height: 150px;
+    width: 330px;
+  }
+  .card-body {
+    width: 330px;
+  }
+  .card-body div {
+    /* width: 320px; */
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .w-100 {
+    height: 150px !important;
+    width: 320px !important;
+  }
+  div.carousel-inner {
+    width: 50px !important;
+  }
+  .ng-fa-icon {
+    width: 30px;
+  }
+  .cards {
+    min-width: 980px;
+  }
+  img {
+    height: 150px;
+    width: 320px;
+  }
+  .card-body {
+    width: 320px;
+  }
+  .card-body div {
+    /* width: 290px; */
+  }
+}
+.card-body {
+  background-color: white;
+}
+.card-body div {
+}
+.flex {
+  display: flex;
+  justify-content: start;
+}
+.flex div {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.detail {
+  margin-left: 10px;
+}
+.profile-pic {
+  display: flex;
+}
+.profile-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.family-name {
+  color: grey;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+.borderLeft {
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+.borderLeft div:nth-child(1) {
+  color: grey;
+}
+.borderLeft div:nth-child(2) {
+  font-weight: 500;
+}
+.greyColor {
+  color: #3c3c3c;
+}
+.carousel.carousel-fade.slide a {
+  display: none !important;
+}
+.carousel-inner ~ a {
+  display: none;
+}

@@ -1,0 +1,83 @@
+.search {
+  background-color: rgb(245, 245, 245);
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+.search div {
+  width: 33.3333%;
+  padding-left: 10px;
+  text-decoration: none;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+input {
+  background-color: rgb(245, 245, 245, 0);
+  border: none;
+  outline: none;
+}
+input:focus {
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+input {
+  width: 200px;
+}
+@media only screen and (max-width: 630px) {
+}
+@media only screen and (max-width: 1150px) {
+  .thirdField input {
+    width: 160px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .option2 {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 725px) {
+  .option1 {
+    display: none !important;
+  }
+  button {
+    margin-left: 16% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  button {
+    display: none;
+  }
+}
+button {
+  color: white;
+  background-color: rgb(47, 128, 248);
+  border: none;
+  width: 200px;
+  height: 40px;
+  margin: auto 20px auto 0px;
+}
+.option0,
+.option1,
+.option2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.choice {
+  display: flex;
+}
+.choice div {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.active {
+  border-bottom: 3px solid white;
+}
+.choice div:nth-child(2) {
+  margin-left: 50px;
+}
